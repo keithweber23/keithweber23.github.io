@@ -4311,7 +4311,7 @@ body.is-loading .banner.onload-image-fade-in .image img {
     top: 0;
     left: 0;
     border-radius: 0;
-    opacity: 0.5;
+    opacity: .4;
 }
 
 .banner.style5 .image img {
@@ -9031,3 +9031,9 @@ body.is-menu-visible #menu .close {
     }
 
 }
+
+img {
+    image-orientation: from-image;
+}
+
+
