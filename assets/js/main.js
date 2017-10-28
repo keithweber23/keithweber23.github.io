@@ -532,12 +532,7 @@
 
 
 	});
-    // activate 
-$(function() {
-  var loc = window.location.href; // returns the full URL
-  if(/Traits.html#interpersonal/.test(loc)) {
-    $('#main').addClass('active');
-  }
+
     
 });
 })(jQuery);
