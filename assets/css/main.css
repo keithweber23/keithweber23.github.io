@@ -1935,7 +1935,7 @@ h1 {
 h2 {
     font-size: 2.25rem;
     padding-top: .2em;
-    
+
 }
 
 h3 {
@@ -8870,7 +8870,7 @@ body.is-loading .items.onload-fade-in > * > .inner {
     padding: 2.75em;
     opacity: 0;
     overflow-y: auto;
-    
+
 }
 
 #menu > .inner > ul {
@@ -9036,4 +9036,82 @@ img {
     image-orientation: from-image;
 }
 
+/**
+* material-scrolltop
+*
+*/
 
+.material-scrolltop {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    width: 4;
+    height: 4;
+    bottom: 23px;
+    right: 23px;
+    padding: 0;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    cursor: hand;
+    border-radius: 50%;
+    background: #68707A;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
+    -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
+    -o-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
+}
+
+.material-scrolltop:hover {
+    background-color: #68707A;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.material-scrolltop::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    content: "";
+    width: 0;
+    border-radius: 100%;
+    background: #68707A;
+}
+
+.material-scrolltop:active::before {
+    width: 120%;
+    padding-top: 120%;
+    -webkit-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.material-scrolltop.reveal {
+    width: 56px;
+    height: 56px;
+}
+
+.material-scrolltop span {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+}
+
+.material-scrolltop,
+.material-scrolltop::before {
+    background-image: url("top-arrow.svg");
+    background-position: center 50%;
+    background-repeat: no-repeat;
+}
+/*# sourceMappingURL=material-scrolltop.css.map */
