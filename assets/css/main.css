@@ -5505,6 +5505,7 @@ body.is-loading .spotlight.onload-image-fade-in .image img {
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     z-index: 1;
+    opacity: .8;
 }
 
 .spotlight.style4 .image {
@@ -5681,10 +5682,11 @@ body.is-loading .spotlight.onload-image-fade-in .image img {
     position: relative;
     width: 40rem;
     max-width: 52.5%;
-    background-color: inherit;
+    background-color: white;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     z-index: 1;
+    opacity: .8;
 }
 
 .spotlight.style5 .image {
