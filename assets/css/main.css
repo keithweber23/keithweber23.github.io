@@ -91,6 +91,7 @@ time,
 mark,
 audio,
 video {
+    height: 100%;
     margin: 0;
     padding: 0;
     border: 0;
@@ -1802,10 +1803,7 @@ body {
 
     html,
     body {
-     top: 50%;
-    left: 50%;
-    width: 200px;
-    height: 300px;
+    height: 100%;
     margin-left: -100px;
     margin-right: -150px;
     }
