@@ -1798,6 +1798,21 @@ body {
     -ms-overflow-style: scrollbar;
 }
 
+@media screen and (max-width: 480px) {
+
+    html,
+    body {
+
+
+=======
+        min-width: 320px;
+>>>>>>> parent of 060f952... fix?
+=======
+        min-width: 320px;
+>>>>>>> parent of 060f952... fix?
+    }
+
+}
 
 body {
     background: #ffffff;
