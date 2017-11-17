@@ -1802,7 +1802,11 @@ body {
 
     html,
     body {
-        min-width: 320px;
+        min-width: 90%;
+ width: 200px;
+    height: 300px;
+    margin-left: -100px;
+    margin-right: -150px;
     }
 
 }
