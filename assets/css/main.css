@@ -9328,7 +9328,7 @@ nav .input-field label.active i {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #6F4597;
   border-radius: 50%;
   -webkit-transition: .3s;
   transition: .3s;
@@ -9337,7 +9337,7 @@ nav .input-field label.active i {
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #6F4597;
 }
 
 .btn-floating:before {
@@ -9489,7 +9489,7 @@ button.btn-floating {
   z-index: -1;
   width: 40px;
   height: 40px;
-  background-color: #26a69a;
+  background-color: #6F4597;
   border-radius: 50%;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -9583,7 +9583,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: #6F4597;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -9719,7 +9719,7 @@ button.btn-floating {
 }
 
 .side-nav li > a.btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #6F4597;
 }
 
 .side-nav li > a > i,
@@ -9950,7 +9950,7 @@ span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #6F4597;
   border-radius: 2px;
 }
 
