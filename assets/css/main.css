@@ -2244,8 +2244,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-    box-shadow: inset 0 0 0 1px #47D3E5;
-    color: #47D3E5 !important;
+    box-shadow: inset 0 0 0 1px #2C0750;
+    color: #2C0750 !important;
 }
 
 input[type="submit"]:active,
@@ -2254,8 +2254,8 @@ input[type="button"]:active,
 button:active,
 .button:active {
     background-color: rgba(71, 211, 229, 0.2);
-    box-shadow: inset 0 0 0 1px #47D3E5;
-    color: #47D3E5 !important;
+    box-shadow: inset 0 0 0 1px #2C0750;
+    color: #2C0750 !important;
 }
 
 input[type="submit"].special,
@@ -2273,7 +2273,7 @@ input[type="reset"].special:hover,
 input[type="button"].special:hover,
 button.special:hover,
 .button.special:hover {
-    background-color: #47D3E5;
+    background-color: #2C0750;
 }
 
 input[type="submit"].special:active,
@@ -2281,7 +2281,7 @@ input[type="reset"].special:active,
 input[type="button"].special:active,
 button.special:active,
 .button.special:active {
-    background-color: #1ebdd1;
+    background-color: #43196C;
 }
 
 /* Form */
@@ -6505,7 +6505,7 @@ body.is-loading .gallery.onload-fade-in article .image img {
 .gallery.style1 input[type="button"].special:active,
 .gallery.style1 button.special:active,
 .gallery.style1 .button.special:active {
-    background-color: #1ebdd1;
+    background-color: #2C0750;
 }
 
 .gallery.style1 > .forward,
@@ -6848,7 +6848,7 @@ body.is-loading .gallery.onload-fade-in article .image img {
 .gallery.style2 input[type="button"].special:active,
 .gallery.style2 button.special:active,
 .gallery.style2 .button.special:active {
-    background-color: #1ebdd1;
+    background-color: #2C0750;
 }
 
 .gallery.style2 > .forward,
@@ -8357,7 +8357,7 @@ body.is-loading .items.onload-fade-in > * > .inner {
 
 nav {
   color: #fff;
-  background-color: #A2A0A0;
+  background-color: #582C83;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -8689,7 +8689,7 @@ nav .input-field label.active i {
 #wrapper > .invert input[type="button"].special:active,
 #wrapper > .invert button.special:active,
 #wrapper > .invert .button.special:active {
-    background-color: #1ebdd1;
+    background-color: #2C0750;
 }
 
 #wrapper > .invert label {
@@ -9573,7 +9573,7 @@ button.btn-floating {
 }
 
 .dropdown-content li.active.selected {
-  background-color: #e1e1e1;
+  background-color: #2C0750;
 }
 
 .dropdown-content li.divider {
