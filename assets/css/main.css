@@ -1890,7 +1890,7 @@ a {
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
-    text-decoration: underline;
+    text-decoration: none;
      background-color: transparent;
 }
 
@@ -9565,6 +9565,7 @@ button.btn-floating {
   text-align: left;
   text-transform: none;
     opacity: .75;
+    list-style: none;
 }
 
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
@@ -9583,10 +9584,11 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #6F4597;
+  color: #2C0750;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
+    
 }
 
 .dropdown-content li > span > label {
