@@ -55,7 +55,7 @@
                     <div class="collapsible-body active"><span> 
                             
 <p class="flow-text">This is the latest copy of my resume:</p>
-    <iframe src="https://drive.google.com/file/d/0BxOvTbw0i__6S01RelI1OW95YTQ/preview" width="100%" height="480">
+    <iframe id="resume" src="https://drive.google.com/file/d/0BxOvTbw0i__6S01RelI1OW95YTQ/preview" width="100%" height="480">
       <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
 An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p>
     </iframe>
@@ -73,9 +73,9 @@ An &#105;frame should be displayed here but your browser version does not suppor
 
                     <div class="collapsible-body"><span>
                          <p class="flow-text">With oversight of a Professor focused on non-profit leadership, I chartered a nonprofit organization. Below are the organization's proposal and accompanied budget sheet. Our primary goal was to raise grant dollars for addiction relief by producing and selling rolling-papers. The original distribution and profits were calculated off less than a 2% market share.</p>
-                          <iframe src="https://drive.google.com/file/d/0BxOvTbw0i__6M3QwRExyZmpCQmc/preview" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe>
+                          <iframe id="proposal" src="https://drive.google.com/file/d/0BxOvTbw0i__6M3QwRExyZmpCQmc/preview" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe>
                           <p class="flow-text">Belowe is a budget sheet; the research and references can be found on pg 11 of the document above.</p>
-                           <iframe src="https://drive.google.com/file/d/0BxOvTbw0i__6bnZjQ0F2X1BKUXc/preview" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe>
+                           <iframe id="proposalfin" src="https://drive.google.com/file/d/0BxOvTbw0i__6bnZjQ0F2X1BKUXc/preview" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe>
                             
                                         
                             
@@ -88,7 +88,7 @@ An &#105;frame should be displayed here but your browser version does not suppor
                     </div>
                     <div class="collapsible-body"><span>
                          <p class="flow-text">As a final artifact from a leadership course, I spent a summer forming this community outreach proposal. The research for it occurred Spring of 2017 alongside classmates in LEAD 405. However, this final product was formed as an independent project suggested by my professors.</p>
-                        <iframe src="https://drive.google.com/file/d/0BxOvTbw0i__6eHRKQ1BzLWJIVnM/preview" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe></span></div>
+                        <iframe id="gab" src="https://drive.google.com/file/d/0BxOvTbw0i__6eHRKQ1BzLWJIVnM/preview" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe></span></div>
                 </li>
 
 
@@ -98,7 +98,7 @@ An &#105;frame should be displayed here but your browser version does not suppor
                     </div>
                     <div class="collapsible-body"><span>
                                 <p class="flow-text">In the process of completing my degrees, I drafted numerous academic papers that covered both experiments and research proposals. Below are samples of these works.</p>
-                                <iframe src="/iframe/Resumelatest.pdf/" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe></span></div>
+                                <iframe id="cogpsych" src="/iframe/Resumelatest.pdf/" width="100%" height="480"><p style="font-size: 110%;"><em><strong>ERROR: </strong>An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p></iframe></span></div>
                 </li>
 
             </ul>
@@ -114,7 +114,8 @@ An &#105;frame should be displayed here but your browser version does not suppor
     <button class="material-scrolltop" type="button"></button>
 
     <!-- Scripts -->
-    <script></script>
+    <script>$(window).load(function(){  iframe.src = src; }  </script>
+    <script src="/assets/js/iframe.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/assets/js/material-scrolltop.js"></script>
     <script>
