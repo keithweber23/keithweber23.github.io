@@ -2719,7 +2719,7 @@ if (Vel) {
     };
 
     $(document).ready(function () {
-         $(".button-collapse").sideNav();
+        $(".button-collapse").sideNav();
         $('.collapsible').collapsible();
     });
 })(jQuery);;
@@ -5792,7 +5792,9 @@ if (Vel) {
 
         // Add active if input element has been pre-populated on document ready
         $(document).ready(function () {
-            $(".dropdown-button").dropdown({hover: true});
+            $(".dropdown-button").dropdown({
+                hover: true
+            });
             $(".button-collapse").sideNav();
             Materialize.updateTextFields();
         });
