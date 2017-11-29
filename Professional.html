@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
+
+<head>
     <title>Professional Development</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -114,13 +115,18 @@ An &#105;frame should be displayed here but your browser version does not suppor
     <button class="material-scrolltop" type="button"></button>
 
     <!-- Scripts -->
-    <script></script>
+    <script type="text/javascript">
+        $('window').load(function() {
+            iframe.src = src;
+        });
+
+    </script>
     <script src="/assets/js/iframe.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/assets/js/material-scrolltop.js"></script>
-    <script>
+    <script type="text/javascript">
         $('body').materialScrollTop();
-        $('window').load(function(){  iframe.src = src; } );
+
     </script>
     <script src="/assets/js/materialize.js"></script>
     <script src="/assets/js/jquery.min.js"></script>
@@ -132,5 +138,5 @@ An &#105;frame should be displayed here but your browser version does not suppor
 
 
 </body>
-</html>
 
+</html>
